@@ -1,0 +1,33 @@
+:root {
+    --white-text-color:#E9E3E3;
+    --main-bg-color:#247BA0;
+    --main-text-color:#287495;
+    --secundary-text-color:#177096;
+}
+
+
+header{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#container-logo {
+    background-color: red;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px; 
+
+}
