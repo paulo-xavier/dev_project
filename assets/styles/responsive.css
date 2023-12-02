@@ -9,3 +9,50 @@
         column-gap: 150px;
     }
 }
+
+@media (max-width: 1064px){
+    #container-menu{
+        column-gap: 110px;
+    }
+}
+
+@media (max-width: 949px){
+    
+    .info {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 880px){
+    .info {
+        width: 440px;
+    }
+
+    #container-menu {
+        column-gap: 85px;
+    }
+
+    #main-image{
+        width: 300px;
+    }
+}
+
+@media (max-width: 780px){
+    main {
+        flex-direction: column;
+    }
+
+    #container-menu {
+        column-gap: 65px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        margin-bottom: 60px;
+    }
+}
+
+ /* -------------- 691px --------------  */
