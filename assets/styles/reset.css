@@ -4,4 +4,10 @@
     margin: 0;
     font-family: 'Exo 2', sans-serif;
     list-style-type: none;
+    
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
 }

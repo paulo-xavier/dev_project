@@ -2,12 +2,17 @@
     --white-text-color: #E9E3E3;
     --main-bg-color: #247BA0;
     --main-text-color: #287495;
-    --secundary-text-color: #177096;
-    
+    --secondary-text-color: #177096;
+
 }
 
 body {
     background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* width: 100vw; */
+    align-items: center;
 }
 
 
@@ -62,21 +67,95 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 85px;
+    column-gap: 120px;
+
 }
 
-#container-menu button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 700;
+#container-menu li {
     color: var(--white-text-color);
     font-family: 'Fredoka', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
+    font-size: 20px;
+
 }
 
-#container-menu button:hover {
+#container-menu li:hover {
     font-weight: 800;
+}
+
+#container-menu #menu:hover,
+#container-menu #profile:hover {
+    transform: scale(1.1);
+}
+
+
+/* main content */
+
+
+main {
+    /* background-color: pink; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+    /* align-items: center; */
+    /* width: 70vw; */
+}
+/* 
+aside {
+    
+    
+} */
+
+
+
+.info {
+    /* background-color: lightblue; */
+    margin-left: 59px;
+    border-radius: 45px;
+    background: #DADADA;
+    box-shadow: 25px 25px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 250px;
+    width:500px; 
+
+}
+
+h1 {
+    text-align: center;
+    /* font-family: 'Axo 2'; */
+    font-size: 25px;
+    color: var(--main-text-color);
+    font-weight: 700;
+    /* margin-right: 30px; */
+}
+
+.logo-small {
+    margin-top: -10px;
+    height: 50px;
+}
+
+
+.container-text-and-image {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 25px;
+}
+
+p {
+    /* background-color: yellow; */
+    color: var(--secondary-text-color); 
+    text-align: center;
+    font-size: 18px;
+    width: 400px;
+    line-height: 30px;
+
+}
+
+.container-introduction-paragraph {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }

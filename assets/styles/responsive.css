@@ -1,0 +1,11 @@
+@media (min-width:1170px) {
+    #container-menu {
+        column-gap: 170px;
+    }
+}
+
+@media (max-width: 1166px) {
+    #container-menu {
+        column-gap: 150px;
+    }
+}
