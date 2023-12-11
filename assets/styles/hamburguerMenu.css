@@ -1,0 +1,52 @@
+.hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    height: 4px;
+    width: 27px;
+    background:#fff;
+    margin: 5px 0;
+    opacity: .8;
+    transition: all .3s ease-in-out;
+}
+
+.container-menu--open {
+    transform: translate(0) !important;
+}
+
+.hamburguer--open .bar:nth-child(1){
+    transform: translateY(8px) rotate(40deg); 
+}
+
+.hamburguer--open .bar:nth-child(2){
+    opacity: 0;
+
+}
+
+.hamburguer--open .bar:nth-child(3){
+    transform: translateY(-11px) rotate(-45deg); 
+    
+}
+
+@media(max-width: 691px) {
+    #container-menu {
+        background: rgba(217, 217, 217, 0.50);
+        backdrop-filter: blur(2px);
+        margin-top: 0;
+        flex-direction: column;
+        height: 250px;
+        gap: 15px;
+        transform: translateX(-100%);
+    }
+
+    .hamburguer {
+        display: block;
+    }
+
+    main {
+        margin-top: -40px;
+    }
+
+}

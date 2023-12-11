@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <link rel="stylesheet" href="./assets/styles/reset.css">
     <link rel="stylesheet" href="./assets/styles/responsive.css">
+    <link rel="stylesheet" href="./assets/styles/hamburguerMenu.css">
     <title>Search & C </title>
 </head>
 
@@ -21,17 +22,23 @@
     <header>
         <nav>
             <ul id="container-logo">
+                <div class="hamburguer">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+
                 <img id="logo" src="./assets/images/logo.png" alt="Search & C logo">
                 <li> <a href="#"> <button id="login">LOGIN</button> </a>
 
             </ul>
 
             <ul id="container-menu">
-                <li> <a href="#"> <img id="menu" src="./assets/images/home-white.png" alt="Home icon"> </a></li>
-                <li> <a href="#"> LOCAIS </a> </li>
-                <li> <a href="#"> SOBRE NÓS </a> </li>
-                <li> <a href="#"> AVALIAÇÕES </a> </li>
-                <li> <a href="#">  <img id="profile" src="./assets/images/user-white.png" alt="User profile icon"> </a></li>
+                <li> <a href="#" class="nav-link"> <img id="menu" src="./assets/images/home-white.png" alt="Home icon"> </a></li>
+                <li> <a href="#" class="nav-link"> LOCAIS </a> </li>
+                <li> <a href="#" class="nav-link"> SOBRE NÓS </a> </li>
+                <li> <a href="#" class="nav-link"> AVALIAÇÕES </a> </li>
+                <li> <a href="#" class="nav-link">  <img id="profile" src="./assets/images/user-white.png" alt="User profile icon"> </a></li>
             </ul>
         </nav>
     </header>
@@ -61,7 +68,7 @@
 
     </main>
 
-
+    <script src="./assets/js/index.js"> </script>
 </body>
 
 </html>

@@ -11,8 +11,9 @@ body {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    /* width: 100vw; */
+    width: 100vw;
     align-items: center;
+    /* padding-top: 190px; */
 }
 
 
@@ -21,6 +22,11 @@ header {
     display: flex;
     justify-content: center;
     width: 100vw;
+    
+    /* position: fixed; */
+   
+    /* height: 190px;    */
+    /* top: 0; */
 
 }
 
@@ -40,6 +46,7 @@ nav {
     height: 100px;
     background: rgba(217, 217, 217, 0.50);
     backdrop-filter: blur(2px);
+
 }
 
 
@@ -68,6 +75,7 @@ nav {
     justify-content: center;
     align-items: center;
     column-gap: 120px;
+    transition: all 0.3s ease-in-out; /*All indicates that any property that changes this element state will have this transition*/
 
 }
 
@@ -77,10 +85,12 @@ nav {
     font-weight: 400;
     letter-spacing: 1px;
     font-size: 20px;
+    transition: all 0.3s;
 
 }
 
-#container-menu li:hover {
+#container-menu li:hover,
+#container-menu li:focus {
     font-weight: 800;
 }
 
@@ -94,16 +104,13 @@ nav {
 
 
 main {
-    /* background-color: pink; */
-    margin-top: 60px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 
 }
 
-
 .info {
-    /* background-color: lightblue; */
     margin-left: 59px;
     border-radius: 45px;
     background: #DADADA;
@@ -115,11 +122,9 @@ main {
 
 h1 {
     text-align: center;
-    /* font-family: 'Axo 2'; */
     font-size: 25px;
     color: var(--main-text-color);
     font-weight: 700;
-    /* margin-right: 30px; */
 }
 
 .logo-small {
@@ -136,7 +141,6 @@ h1 {
 }
 
 p {
-    /* background-color: yellow; */
     color: var(--secondary-text-color); 
     text-align: center;
     font-size: 18px;
@@ -146,7 +150,6 @@ p {
 }
 
 .container-introduction-paragraph {
-    /* background-color: blue; */
     display: flex;
     justify-content: center;
     margin-top: 15px;
