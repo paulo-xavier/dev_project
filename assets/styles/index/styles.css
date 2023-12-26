@@ -17,26 +17,30 @@ body {
 }
 
 
-
-
-
 /* main content */
 
-
 main {
-    margin-top: 100px;
+    /* background-color: red; */
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 
 }
 
+#main-image {
+    width: 270px;
+    height: 380px;
+    object-fit: contain;
+}
+
+
 .info {
     margin-left: 59px;
     border-radius: 45px;
     background: #DADADA;
-    box-shadow: 25px 25px 4px 0px rgba(0, 0, 0, 0.25);
-    height: 250px;
-    width:500px; 
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    height: 230px;
+    width:450px; 
 
 }
 
@@ -44,6 +48,7 @@ h1 {
     text-align: center;
     font-size: 25px;
     color: var(--main-text-color);
+    text-shadow: 1px 1px 2px rgba(34, 102, 129, 0.681);;
     font-weight: 700;
 }
 

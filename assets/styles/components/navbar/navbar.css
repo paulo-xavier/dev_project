@@ -122,6 +122,24 @@ nav {
 
  @media (max-width: 466px) {
     #container-logo #logo {
-        margin: 0 -10vw 0 -5vw; 
+        margin: 0 -15vw 0 -10vw; 
+        width: 200px;
+         height: 100px;
+         object-fit: contain;
+    
     }
+
+    #container-logo {
+        gap: 80px;
+
+    }
+
+    @media (max-width: 392px) {
+        
+    }
+
+    
+
+    
+
  }
