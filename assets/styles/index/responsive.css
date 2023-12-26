@@ -1,0 +1,36 @@
+
+
+@media (max-width: 949px){
+    
+    .info {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 880px){
+    .info {
+        width: 440px;
+    }
+
+    #main-image{
+        width: 300px;
+    }
+}
+
+@media (max-width: 780px){
+    main {
+        flex-direction: column;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        margin-bottom: 60px;
+    }
+}
+
+ /* -------------- 691px hamburguer menu--------------  */
+
+
