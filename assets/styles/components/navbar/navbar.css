@@ -62,7 +62,7 @@ nav {
     font-weight: 400;
     letter-spacing: 1px;
     font-size: 20px;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
 }
 
 #container-menu li:hover,

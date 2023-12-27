@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -10,21 +11,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./assets/styles/index/styles.css">
-    <link rel="stylesheet" href="./assets/styles/reset/reset.css">
-    <link rel="stylesheet" href="./assets/styles/index/responsive.css">
+
     <link rel="stylesheet" href="./assets/styles/components/hamburguer-menu/hamburguer-menu.css">
     <link rel="stylesheet" href="./assets/styles/components/navbar/navbar.css">
+    <link rel="stylesheet" href="./assets/styles/reset/reset.css">
+    <link rel="stylesheet" href="./assets/styles/pages/login/login.css">
 
-    <title>Search & C </title>
+
+
+    <title>Search & C</title>
 </head>
-
 <body>
 
     <header>
-
         <nav>
-
             <ul id="container-logo">
                 <div class="hamburguer">
                     <div class="bar"></div>
@@ -34,7 +34,7 @@
 
                 <img id="logo" src="./assets/images/logo.png" alt="Search & C logo">
                 
-                <li> <a href="./login.html"> <button id="login">LOGIN</button> </a>
+                <li> <a href="#"> <button id="login">LOGIN</button> </a>
             </ul>
 
             <ul id="container-menu">
@@ -49,30 +49,27 @@
     
     </header>
 
-    <main>
 
-        <aside>
-            <img id="main-image" src="./assets/images/man-with-a-guide-dog.png" alt="Man with a guide dog">
-        </aside>
+    <main> 
+        <form action="" method="">
+            <img id="user-logo" src="./assets/images/login-user.png" alt="User logo">
 
-        <section class="info">
-            <section class="container-text-and-image">
-                <div>
-                    <h1> Bem vindos ao </h1>
-                </div>
-                
-                <div><img class="logo-small" src="./assets/images/logo.png" alt="Search & C logo"></div>
-            </section>
+            <input id="email" type="text" placeholder="Email" name="email">
             
-            <section class="container-introduction-paragraph">
-                <p> Esperamos que goste do projeto. Desejamos que seja um espaço inclusivo, seguro, onde todos possam
-                    encontrar lugares para passar ótimos momentos com quem gostamos.</p>
-            </section>
-        
-        </section>
+            <input id="password" type="password" placeholder="Password" name="password" minlength="8" maxlength="20">
+
+            <input id="submit" type="submit" value="Entrar">
+
+            <a href="#" id="forgot-password"> Esqueci a senha</a>
+
+            <a href="#"><img id="google-logo" src="./assets/images/google-logo.png" alt="Google logo"></a>
+        </form>
 
     </main>
 
-    <script src="./assets/js/hamburguer-menu/hamburguer.js"> </script>
+
+
+
+    <script src="./assets/js/hamburguer-menu/hamburguer.js"></script>
 </body>
 </html>
