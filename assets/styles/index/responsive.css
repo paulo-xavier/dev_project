@@ -1,7 +1,4 @@
-
-
 @media (max-width: 949px){
-    
     .info {
         margin-left: 0;
     }
@@ -22,54 +19,81 @@
         flex-direction: column;
     }
 
-    body {
-        overflow-x: hidden;
-    }
-
     main {
         margin-bottom: 60px;
     }
 
-    @media (max-width: 691px) {
-        main {
-            /* background-color: red; */
-            margin-top: -250px;
-        }
-    }
-
-    @media (max-width: 466px) {
-        aside {
-            text-align: center;
-        }
-
-        #main-image {
-            width: 250px;
-            height: 300px;
-            object-fit: contain;
-        }
-
-        .info {
-            width: 370px;
-            height: 300px;
-            padding: 10px;
-        }
-
-        p {
-            font-size: 20px;
-            text-align: justify;
-        }
-
-        .container-introduction-paragraph {
-            width: 320px;
-            justify-content: center;
-            margin-left: 10px;
-        }
-
-
-    }
-    
 }
 
- /* -------------- 691px hamburguer menu--------------  */
+@media (max-width: 691px) {
+    main {
+        margin-top: -250px;
+    }
+}
 
+@media (max-width: 466px) {
+    aside {
+        text-align: center;
+    }
 
+    #main-image {
+        width: 250px;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    .info {
+        width: 370px;
+        height: 300px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .container-introduction-paragraph {
+        width: 320px;
+        justify-content: center;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 392px) {
+    .info {
+        width: 340px;
+        height: 330px;
+    }
+
+    .container-introduction-paragraph {
+        width: 250px;
+        margin: auto;
+    }
+
+    .container-text-and-image {
+        margin-left: 8px;
+    }
+}
+
+@media (max-width: 362px) {
+    .info {
+        width: 300px;
+    }
+    
+    h1 {
+        font-size: 23px;
+    }
+
+    .container-text-and-image {
+        column-gap: 5px;
+        width: 300px;
+        margin-left: 0;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+    

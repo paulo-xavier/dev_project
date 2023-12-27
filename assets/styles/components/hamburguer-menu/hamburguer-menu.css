@@ -22,12 +22,10 @@
 
 .hamburguer--open .bar:nth-child(2){
     opacity: 0;
-
 }
 
 .hamburguer--open .bar:nth-child(3){
     transform: translateY(-11px) rotate(-45deg); 
-    
 }
 
 @media(max-width: 691px) {
@@ -44,6 +42,4 @@
     .hamburguer {
         display: block;
     }
-
-
 }

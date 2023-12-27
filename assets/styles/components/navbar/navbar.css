@@ -31,7 +31,6 @@ nav {
 
 
 #container-logo #logo {
-    /* background: yellow; */
     height: 125px;
     margin-left: 20vw;
 }
@@ -48,7 +47,6 @@ nav {
 }
 
 #container-menu {
-    /* background-color: yellow; */
     height: 60px;
     margin-top: 30px;
     display: flex;
@@ -56,7 +54,6 @@ nav {
     align-items: center;
     column-gap: 120px;
     transition: all 0.3s ease-in-out; /*All indicates that any property that changes this element state will have this transition*/
-
 }
 
 #container-menu li {
@@ -66,7 +63,6 @@ nav {
     letter-spacing: 1px;
     font-size: 20px;
     transition: all 0.3s;
-
 }
 
 #container-menu li:hover,
@@ -79,10 +75,7 @@ nav {
     transform: scale(1.1);
 }
 
-
-
 /* Responsive*/
-
 @media (min-width:1170px) {
     #container-menu {
         column-gap: 170px;
@@ -117,29 +110,44 @@ nav {
     #container-logo #logo {
         margin-left: 0vw;
     }
+}
 
- }
-
- @media (max-width: 466px) {
+@media (max-width: 466px) {
     #container-logo #logo {
         margin: 0 -15vw 0 -10vw; 
         width: 200px;
          height: 100px;
          object-fit: contain;
-    
+    }
+
+    #container-logo li {
+        font-size: 18px;
     }
 
     #container-logo {
         gap: 80px;
-
     }
 
-    @media (max-width: 392px) {
-        
+    #container-logo #login {
+        font-size: 20px;
     }
+}
+ 
 
-    
+@media (max-width: 392px) {
+    #container-logo {
+        gap: 60px;
+    }
+}
 
-    
+@media (max-width: 362px) {
+    #container-logo {
+        gap: 50px;
+    }
+}
 
- }
+@media (max-width: 320px) {
+    #container-logo {
+        gap: 40px;
+    }
+}

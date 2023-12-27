@@ -9,22 +9,16 @@ body {
     background-color: var(--main-bg-color);
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     overflow-x: hidden;
     width: 100vw;
     align-items: center;
-    /* padding-top: 190px; */
 }
 
-
 /* main content */
-
 main {
-    /* background-color: red; */
     margin-top: 50px;
     display: flex;
     justify-content: center;
-
 }
 
 #main-image {
@@ -33,7 +27,6 @@ main {
     object-fit: contain;
 }
 
-
 .info {
     margin-left: 59px;
     border-radius: 45px;
@@ -41,7 +34,6 @@ main {
     box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
     height: 230px;
     width:450px; 
-
 }
 
 h1 {
@@ -57,7 +49,6 @@ h1 {
     height: 50px;
 }
 
-
 .container-text-and-image {
     display: flex;
     justify-content: center;
@@ -71,7 +62,6 @@ p {
     font-size: 18px;
     width: 400px;
     line-height: 30px;
-
 }
 
 .container-introduction-paragraph {
