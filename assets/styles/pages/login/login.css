@@ -35,6 +35,8 @@ form {
     background: #A3BDC8;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     gap: 20px;
+
+    
 }
 
 #user-logo {
@@ -50,22 +52,24 @@ input[type=text], input[type=password] {
     border: none;
     width: 230px;
     height: 33px;
-    letter-spacing: 2px;
+    letter-spacing: 2px;   
 }
 
 #email {
-    background-image: url('../../../images/login-gmail.png');
+    background-image: url('../../../images/login-gmail.png') ;
+    padding-left: 33px;
 }
 
 #password {
     background-image: url('../../../images/login-password.png');
+    padding-left: 33px;
 }
 
 #email, #password {
     background-repeat: no-repeat; 
     background-position: left; 
     background-size: 20px 20px;
-    text-indent: 50px;
+    text-indent: 13px;
     background-position-x: 15px;
     font-size: 15px;
 }
