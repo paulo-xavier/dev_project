@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="./assets/styles/components/hamburguer-menu/hamburguer-menu.css">
     <link rel="stylesheet" href="./assets/styles/components/navbar/navbar.css">
     <link rel="stylesheet" href="./assets/styles/reset/reset.css">
-    <link rel="stylesheet" href="./assets/styles/pages/login/login.css">
-    <link rel="stylesheet" href="./assets/styles/pages/login/responsive.css">
+    <link rel="stylesheet" href="./assets/styles/pages/register/register.css">
+    <link rel="stylesheet" href="./assets/styles/pages/register/responsive.css">
 
     <title>Search & C</title>
 </head>
@@ -36,7 +36,7 @@
 
                 <img id="logo" src="./assets/images/logo.png" alt="Search & C logo">
                 
-                <li> <a href="#"> <button id="login">LOGIN</button> </a>
+                <li> <a href="./login.html"> <button id="login">LOGIN</button> </a>
             </ul>
 
             <ul id="container-menu">
@@ -55,19 +55,17 @@
     <main> 
         <form action="" method="">
 
-            <h1 id="login-title">Login</h1>
+            <h1 id="login-title">Registro</h1>
 
             <img id="user-logo" src="./assets/images/login-user.png" alt="User logo">
+
+            <input id="nome" type="text" placeholder="Nome" name="nome"  minlength="10" maxlength="20" required>
 
             <input id="email" type="text" placeholder="Email" name="email" minlength="10" required>
             
             <input id="password" type="password" placeholder="Password" name="password" minlength="8" maxlength="20" required>
 
-            <input id="submit" type="submit" value="Entrar">
-
-            <a href="#" id="forgot-password"> Esqueci a senha</a>
-
-            <a href="./register.html" id="register-page"> Não tem uma conta? Registre-se!</a>
+            <input id="submit" type="submit" value="Cadastrar">
 
             <button id="login-google">  Entrar </button>
         </form>
