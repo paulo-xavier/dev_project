@@ -1,0 +1,31 @@
+@media (max-width: 691px) {
+    main {
+        margin-top: -230px;
+    }
+}
+
+@media (max-width: 436px){
+    form {
+        width: 320px;
+    }
+
+    #login-title {
+        font-size: 21px;
+    }
+
+    input[type=text], input[type=password], #submit {
+        width: 200px;
+    }
+}
+
+@media (max-width: 377px) {
+    form {
+        width: 290px;
+    }
+}
+
+@media (max-width: 360px) {
+    main {
+        margin-top: -220px;
+    }
+}
